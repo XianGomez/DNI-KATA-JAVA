@@ -1,0 +1,42 @@
+### Java ###
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# No ignores .mvn/wrapper si usas Maven Wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+### VS Code ###
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+### Language Support for Java (Red Hat) ###
+.project
+.classpath
+.factorypath
+.settings/
+bin/
+
+### Operating System ###
+.DS_Store
+Thumbs.db
