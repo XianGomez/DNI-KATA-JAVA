@@ -9,8 +9,14 @@ public class TablaAsignacion {
 
     public TablaAsignacion() {};
 
-    public char getLetra(int posicion) {        
-        return this.tabla[posicion];
+    public char getLetra(int posicion) {
+
+        try {
+            return this.tabla[posicion];
+        } catch (ArrayIndexOutOfBoundsException e) {
+            throw new ArrayIndexOutOfBoundsException("La posición " + posicion + " no existe en la tabla.");
+        }      
+        
     }
 
     public boolean isLetraPermitida(char letra) {
