@@ -16,6 +16,16 @@ public class TablaAsignacion {
     public boolean isLetraPermitida(char letra) {
         return new String(this.tabla).indexOf(letra) != -1;
     }
-    
+
+    public int getModulo() {
+        return this.tabla.length;
+    }
+
+    public char calcularLetra(String DNI){
+        int dni = Integer.parseInt(DNI);
+		int posicion = dni % getModulo();
+		return getLetra(posicion);
+    }
+
     
 }
