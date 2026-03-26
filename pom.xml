@@ -7,6 +7,8 @@
     <groupId>edu.teamrocket</groupId>
     <artifactId>dni-kata-java</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <name>dnikata</name>
+    <url>https://github.com/XianGomez/DNI-KATA-JAVA</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
